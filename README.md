@@ -25,8 +25,8 @@ index.html - put there any message that you want to show when use an url without
 
 3 - In Realtime Database section, create a new item inside your new database. Name this item "acessos".
 
-![]({{site.baseurl}}//master/fb1.png)
+![]({{site.baseurl}}//fb1.png)
 
 4 - In Realtime Database section, edit the database access rules.
 
-![]({{site.baseurl}}//master/fb2.png)
+![]({{site.baseurl}}//fb2.png)
