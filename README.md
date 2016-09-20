@@ -31,16 +31,16 @@ index.html - put there any message that you want to show when use an url without
 
 ![]({{site.baseurl}}//fb2.png)
 
-{
-  "rules": {
-"acessos": {
-   ".read": "auth == null",
-    ".write": "auth == null"	
-},
-  "site1": {
-   ".read": "auth != null",
-    ".write": "auth != null"	
-}
-  }
-}
+- {
+-   "rules": {
+- "acessos": {
+-    ".read": "auth == null",
+-     ".write": "auth == null"	
+- },
+-   "site1": {
+-    ".read": "auth != null",
+-     ".write": "auth != null"	
+- }
+-   }
+- }
 
