@@ -1,0 +1,12 @@
+Options +FollowSymLinks -MultiViews -indexes
+RewriteEngine On
+RewriteRule ^([a-z]+)$ redir2.php?go=$1&model=$2&id=$3 [NC,L]
+RewriteRule ^([a-z]+)\/([a-z]+)$ redir2.php?go=$1&par=$2 [NC,L]
+RewriteRule ^([a-z]+)\/([a-z]+)\/([0-9]+)$ nada.php?go=$1&model=$2&id=$3 [NC,L]
+
+# Force no caching for dynamic files
+<FilesMatch "\.(php|cgi|pl|htm)$">
+ExpiresActive Off
+Header set Cache-Control "private, no-cache, no-store, proxy-revalidate, no-transform"
+Header set Pragma "no-cache"
+</FilesMatch>
