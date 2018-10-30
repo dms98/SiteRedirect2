@@ -18,9 +18,13 @@ htaccess - rename to .htaccess - This file tells to webserver to use redir2.php
 index.html - put there any message that you want to show when use an url without parameters.
 
 **USE**
+
 http://url.site.com/<alias>    -  Go to alias
+  
 http://url.site.com/<alias>/n  -  Go to alias without count in firebase
+  
 http://url.site.com/listaabc - Show all alias and urls  
+
 
 **Additional instructions**
 
