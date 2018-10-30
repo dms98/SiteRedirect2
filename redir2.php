@@ -33,8 +33,10 @@ if (substr($par_go, 0, 8) == "listaabc") {
         echo '<HTML><BODY>';
         echo '<HR>';
 	foreach($vai as $x => $x_value) {
-		echo 'Key= &nbsp;<B>' . $x . '</B>, Value= &nbsp;' . $x_value;
+		echo 'Key= &nbsp;<B>' . $x;
+		echo '&nbsp; - &nbsp;' . '<A HREF="http://url.neoage.com.br/' . $x . '/n" target="_tab">' . $x .'</a></B>, Value= &nbsp;' . $x_value;
 		echo '<br>';
+
 	}
         echo '<HR>';
         echo '</BODY></HTML>';
